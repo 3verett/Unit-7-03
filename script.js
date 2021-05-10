@@ -14,10 +14,10 @@ function ageCheck () {
   }
 
   else if (userAge < 13) {
-    document.getElementById('age-answer').innerHTML = 'You can see a G rated movie.';
+    document.getElementById('age-answer').innerHTML = 'You can see a G rated movie.'
   }
 
   else {
-    document.getElementById('age-answer').innerHTML = 'Please enter a valid age.';
+    document.getElementById('age-answer').innerHTML = 'Please enter a valid age.'
   }
 }
